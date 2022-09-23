@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'terceraclaseD';
+
+  public valor: number = 0;
+
+  onClick(): void{
+    console.log('incrementa!');
+    this.valor = this.valor+1;
+  }
 }
